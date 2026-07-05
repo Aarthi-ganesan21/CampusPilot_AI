@@ -1,0 +1,157 @@
+{
+  "users": [],
+  "students": [],
+  "faculty": [],
+  "departments": [],
+  "subjects": [],
+  "classes": [],
+  "attendance": [],
+  "assignments": [
+    {
+      "_id": "6a49a6d7189282e3c2cc77e2",
+      "id": "as1",
+      "title": "DSA - Sorting Algorithms",
+      "courseName": "Data Structures",
+      "courseCode": "CS-201",
+      "dueDate": "2026-07-10",
+      "totalMarks": 100,
+      "submissionsCount": 5,
+      "totalStudents": 5,
+      "status": "Pending",
+      "__v": 0,
+      "createdAt": "2026-07-05T00:35:35.231Z",
+      "updatedAt": "2026-07-05T00:35:35.231Z"
+    },
+    {
+      "_id": "6a49a6d7189282e3c2cc77e3",
+      "id": "as2",
+      "title": "DBMS - ER Diagram Design",
+      "courseName": "Database Management Systems",
+      "courseCode": "CS-204",
+      "dueDate": "2026-07-15",
+      "totalMarks": 50,
+      "submissionsCount": 3,
+      "totalStudents": 5,
+      "status": "Submitted",
+      "__v": 0,
+      "createdAt": "2026-07-05T00:35:35.232Z",
+      "updatedAt": "2026-07-05T00:35:35.232Z"
+    },
+    {
+      "_id": "6a49a6d7189282e3c2cc77e4",
+      "id": "as3",
+      "title": "Computer Networks - IP Addressing",
+      "courseName": "Computer Networks",
+      "courseCode": "CS-302",
+      "dueDate": "2026-07-22",
+      "totalMarks": 100,
+      "submissionsCount": 0,
+      "totalStudents": 5,
+      "status": "Pending",
+      "__v": 0,
+      "createdAt": "2026-07-05T00:35:35.232Z",
+      "updatedAt": "2026-07-05T00:35:35.232Z"
+    }
+  ],
+  "assignmentSubmissions": [],
+  "internalMarks": [],
+  "semesterMarks": [],
+  "results": [],
+  "notifications": [
+    {
+      "id": "n_gr_1783246777845",
+      "title": "Assignment Marks Published",
+      "message": "Your submission for assignment \"DSA - Sorting Algorithms\" has been evaluated by Ms. Priya. Score: 87/100",
+      "timestamp": "2026-07-05T10:19:37.845Z",
+      "category": "Academic",
+      "read": false,
+      "sender": "Faculty"
+    },
+    {
+      "_id": "6a49a6d7189282e3c2cc77ed",
+      "id": "n1",
+      "title": "Mid Semester Exam Schedule Out",
+      "message": "The mid-semester examinations will commence from 15th July 2026. Please check the notice board.",
+      "timestamp": "2026-07-01T10:00:00",
+      "category": "Academic",
+      "read": false,
+      "sender": "Administrator",
+      "__v": 0,
+      "createdAt": "2026-07-05T00:35:35.251Z",
+      "updatedAt": "2026-07-05T00:35:35.251Z"
+    },
+    {
+      "_id": "6a49a6d7189282e3c2cc77ee",
+      "id": "n2",
+      "title": "Project Submission Reminder",
+      "message": "Don't forget to submit your DBMS projects before the deadline: 10th July 2026.",
+      "timestamp": "2026-06-29T14:30:00",
+      "category": "Academic",
+      "read": true,
+      "sender": "Faculty",
+      "__v": 0,
+      "createdAt": "2026-07-05T00:35:35.251Z",
+      "updatedAt": "2026-07-05T00:35:35.251Z"
+    }
+  ],
+  "documents": [],
+  "placements": [],
+  "hostel": [],
+  "fees": [
+    {
+      "_id": "6a49a6d7189282e3c2cc77f4",
+      "id": "f1",
+      "studentId": "u1",
+      "term": "Term 1 (Academic Year 2026)",
+      "academicFee": 75000,
+      "hostelFee": 35000,
+      "examFee": 2500,
+      "busFee": 12000,
+      "paidAmount": 124500,
+      "status": "Paid",
+      "dueDate": "2026-06-15",
+      "transactions": [
+        {
+          "id": "tx1",
+          "amount": 124500,
+          "date": "2026-06-10",
+          "paymentMethod": "UPI (GPay)",
+          "referenceNo": "UPI9823481239",
+          "status": "Success",
+          "_id": "6a49a6d7189282e3c2cc77f5"
+        }
+      ],
+      "__v": 0,
+      "createdAt": "2026-07-05T00:35:35.262Z",
+      "updatedAt": "2026-07-05T00:35:35.262Z"
+    },
+    {
+      "_id": "6a49a6d7189282e3c2cc77f6",
+      "id": "f2",
+      "studentId": "u1",
+      "term": "Term 2 (Academic Year 2026)",
+      "academicFee": 75000,
+      "hostelFee": 35000,
+      "examFee": 2500,
+      "busFee": 12000,
+      "paidAmount": 124500,
+      "status": "Paid",
+      "dueDate": "2026-11-15",
+      "transactions": [
+        {
+          "id": "tx2",
+          "amount": 45000,
+          "date": "2026-07-01",
+          "paymentMethod": "Net Banking (SBI)",
+          "referenceNo": "NET9910023812",
+          "status": "Success",
+          "_id": "6a49a6d7189282e3c2cc77f7"
+        }
+      ],
+      "__v": 0,
+      "createdAt": "2026-07-05T00:35:35.263Z",
+      "updatedAt": "2026-07-05T00:35:35.263Z"
+    }
+  ],
+  "library": []
+}
