@@ -11,7 +11,7 @@ To provide the absolute best performance, live-editing experience, and serverles
 1. **Active Dev/Production App (Root & `src/`)**:
    - **Backend**: `/server.ts` is a custom Express server that integrates real-time Gemini AI chat endpoints (`/api/ai/chat`) and mounts the Vite dev middleware to host the fully interactive React SPA.
    - **Frontend**: `/src` contains the modular React application including user context managers, dashboard systems, and interactive modules.
-   - **Single-Port Ingress**: Both frontend and backend serve seamlessly on Port `3000` via our production-optimized container setup.
+   - **Single-Port Ingress**: Both frontend and backend serve seamlessly on Port `5000` via our production-optimized container setup.
 
 2. **Modularized Target Production Folders (Separated Reference Code)**:
    - **`/backend`**: Contains full-scale Mongoose schemas, controllers, routing tables, and service models representing a classic separate server structure.
@@ -95,7 +95,7 @@ Start the live full-stack development server with Hot Module Replacement support
 ```bash
 npm run dev
 ```
-The app will immediately compile and run on [http://localhost:3000](http://localhost:3000).
+The app will immediately compile and run on [http://localhost:5000](http://localhost:5000).
 
 ### 5. Compiling for Production
 Build the optimized static frontend bundle and bundle the custom server using `esbuild`:
